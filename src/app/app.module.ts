@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SettingsComponent } from './settings/settings.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { EditorComponent } from './editor/editor.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HomeComponent,
     ProfileComponent,
     SettingsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
