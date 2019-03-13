@@ -1,0 +1,16 @@
+.page-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+.page-not-found .action {
+  margin-top: 20px;
+}
+
+.page-not-found h1 {
+  font-size: 10em;
+}
