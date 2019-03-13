@@ -11,6 +11,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { SettingsComponent } from './settings/settings.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { EditorComponent } from './editor/editor.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { EditorComponent } from './editor/editor.component';
     ProfileComponent,
     SettingsComponent,
     PageNotFoundComponent,
-    EditorComponent
+    EditorComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
